@@ -23,7 +23,7 @@ from ..utils import (
     decimal_as_float, field_value_to_representation, filter_none, get_serializer_class, get_serializer_ref_name
 )
 
-drf_version = pkg_resources.get_distribution("djangorestframework").version
+drf_version = pkg_resources.get_distribution("djrestframework").version
 
 logger = logging.getLogger(__name__)
 
